@@ -76,7 +76,7 @@ const Skills = () => {
 
   return (
     <div name="skills">
-      <div className="min-h-screen flex-grow flex-shrink-0 bg-gradient-to-b from-slate-500 to-slate-800 mx-auto sm:p-32 ">
+      <div className="min-h-screen flex-grow flex-shrink-0 bg-gradient-to-b from-slate-500 to-slate-800 mx-auto sm:p-32 p-5">
         <div className="max-w-screen-lg w-full h-full mx-auto ">
           <div className="flex flex-col items-start ">
             <p className="text-4xl font-semibold mt-2  border-b-4 border-b-gray-800 rounded-sm text-white">

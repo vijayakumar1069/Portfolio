@@ -5,7 +5,7 @@ import rent1 from "../assets/rent-1.png";
 const Portfolio = () => {
   return (
     <div
-      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-gray-900 mx-auto sm:p-32 flex-shrink-0 "
+      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-gray-900 mx-auto sm:p-32 flex-shrink-0 p-5"
       name="portfolio"
     >
       <div className="max-w-screen-lg mx-auto w-full h-full  ">
