@@ -5,7 +5,7 @@ import rent1 from "../assets/rent-1.png";
 const Portfolio = () => {
   return (
     <div
-      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-black mx-auto p-32 flex-shrink-0 "
+      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-gray-900 mx-auto p-32 flex-shrink-0 "
       name="portfolio"
     >
       <div className="max-w-screen-lg mx-auto w-full h-full  ">
@@ -17,8 +17,8 @@ const Portfolio = () => {
             Check out some of my work right here{" "}
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 p-3 gap-5 mt-5   ">
-          <div className="flex flex-col gap-5 p-3 border-[#33186B]   shadow-lg shadow-black  hover:scale-105 dura ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  p-3 gap-12 mt-5 px-12   ">
+          <div className="flex flex-col gap-5 p-3    shadow-lg shadow-black rounded-lg hover:scale-105 dura ">
             <img
               src={in1}
               alt="inventory_billing_App"
@@ -38,7 +38,7 @@ const Portfolio = () => {
                   <a
                     href="https://inventory-app-01.onrender.com"
                     target="_blank"
-                    className=" h-64 w-full "
+                    className=" h-64 w-full mt-4 "
                   >
                     Demo
                   </a>
@@ -55,11 +55,11 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 p-3 border-[#33186B]   shadow-lg shadow-black hover:scale-105 dura ">
+          <div className="flex flex-col gap-5 p-3 border-[#33186B]   shadow-lg shadow-black rounded-lg hover:scale-105 dura ">
             <img
               src={rent1}
               alt=""
-              className="h-64 w-full hover:scale-105 duration-300 rounded-lg "
+              className="h-64 w-full hover:scale-105 duration-300 rounded-lg mt-4 "
             />
             <p className="text-white">
               {" "}
