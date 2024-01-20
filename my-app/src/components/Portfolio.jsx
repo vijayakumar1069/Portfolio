@@ -5,15 +5,15 @@ import rent1 from "../assets/rent-1.png";
 const Portfolio = () => {
   return (
     <div
-      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-gray-900 mx-auto p-32 flex-shrink-0 "
+      className="min-h-screen flex-grow bg-gradient-to-b from-gray-500 to-gray-900 mx-auto sm:p-32 flex-shrink-0 "
       name="portfolio"
     >
       <div className="max-w-screen-lg mx-auto w-full h-full  ">
         <div className="flex flex-col items-start">
-          <p className="text-4xl font-semibold mt-2  border-b-4 border-b-gray-900 rounded-sm text-white">
+          <p className="text-4xl font-semibold mt-2 p-2  border-b-4 border-b-gray-800 rounded-sm text-white">
             Portfolio
           </p>
-          <p className="text-2xl mt-4 text-white">
+          <p className="text-2xl mt-4 p-2 text-white">
             Check out some of my work right here{" "}
           </p>
         </div>
@@ -32,7 +32,7 @@ const Portfolio = () => {
               information management
             </p>
 
-            <div className="w-3/4">
+            <div className="sm:w-3/4">
               <div className="flex justify-center gap-x-32 mt-4 p-3">
                 <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
                   <a
@@ -69,7 +69,7 @@ const Portfolio = () => {
               dedicated to providing exceptional service and making the buying
               and selling process as smooth as possible.
             </p>
-            <div className="w-3/4">
+            <div className="sm:w-3/4">
               <div className="flex justify-center gap-x-32 mt-4 p-3">
                 <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
                   <a
