@@ -30,7 +30,7 @@ export const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="capitalize text-slate-500 cursor-pointer font-medium hover:scale-105 duration-200 px-4 "
+            className="capitalize text-slate-100 cursor-pointer font-medium hover:scale-105 duration-200 px-4 "
           >
             <Link to={link} smooth duration={700}>
               {link}
