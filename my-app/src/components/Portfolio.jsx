@@ -31,6 +31,11 @@ const Portfolio = () => {
               Implemented a secure customer database, enabling efficient client
               information management
             </p>
+            <div className="text-white">
+              <p>Login</p>
+              <p>Email : vijay.r20799@gmail.com</p>
+              <p>Password : 12345</p>
+            </div>
 
             <div className="sm:w-3/4">
               <div className="flex justify-center gap-x-32 mt-4 p-3">
@@ -58,7 +63,7 @@ const Portfolio = () => {
           <div className="flex flex-col gap-5 p-3 border-[#33186B]   shadow-lg shadow-black rounded-lg hover:scale-105 dura ">
             <img
               src={rent1}
-              alt=""
+              alt="Real_Estate_Application"
               className="h-64 w-full hover:scale-105 duration-300 rounded-lg mt-4 "
             />
             <p className="text-white">
@@ -69,6 +74,11 @@ const Portfolio = () => {
               dedicated to providing exceptional service and making the buying
               and selling process as smooth as possible.
             </p>
+            <div className="text-white">
+              <p>Login</p>
+              <p>Email : vijay.r20799@gmail.com</p>
+              <p>Password : 12345</p>
+            </div>
             <div className="sm:w-3/4">
               <div className="flex justify-center gap-x-32 mt-4 p-3">
                 <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
