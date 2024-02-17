@@ -40,7 +40,7 @@ const Portfolio = () => {
             <div className="flex justify-center items-center gap-x-20 sm:gap-x-40 mt-4 p-3">
               <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
                 <a
-                  href="https://inventory-app-01.onrender.com"
+                  href="https://gilded-medovik-7ebb95.netlify.app"
                   target="_blank"
                   className=" h-64 w-full mt-4 "
                 >
