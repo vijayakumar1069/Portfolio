@@ -37,27 +37,25 @@ const Portfolio = () => {
               <p>Password : 12345</p>
             </div>
 
-            <div className="sm:w-3/4">
-              <div className="flex justify-center gap-x-32 mt-4 p-3">
-                <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
-                  <a
-                    href="https://inventory-app-01.onrender.com"
-                    target="_blank"
-                    className=" h-64 w-full mt-4 "
-                  >
-                    Demo
-                  </a>
-                </button>
-                <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
-                  <a
-                    href="https://github.com/vijayakumar1069/Inventory_Billing_App.git"
-                    target="_blank"
-                    className="text-black"
-                  >
-                    code
-                  </a>
-                </button>
-              </div>
+            <div className="flex justify-center items-center gap-x-20 sm:gap-x-40 mt-4 p-3">
+              <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
+                <a
+                  href="https://inventory-app-01.onrender.com"
+                  target="_blank"
+                  className=" h-64 w-full mt-4 "
+                >
+                  Demo
+                </a>
+              </button>
+              <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
+                <a
+                  href="https://github.com/vijayakumar1069/Inventory_Billing_App.git"
+                  target="_blank"
+                  className="text-black"
+                >
+                  code
+                </a>
+              </button>
             </div>
           </div>
           <div className="flex flex-col gap-5 p-3 border-[#33186B]   shadow-lg shadow-black rounded-lg hover:scale-105 dura ">
@@ -80,7 +78,7 @@ const Portfolio = () => {
               <p>Password : 12345</p>
             </div>
             <div className="sm:w-3/4">
-              <div className="flex justify-center gap-x-32 mt-4 p-3">
+              <div className="flex justify-center gap-x-20 sm:gap-x-40 mt-4 p-3">
                 <button className="border p-3 bg-white text-black rounded-lg hover:scale-105 duration-300  font-medium">
                   <a
                     href="https://mern-estate-qipo.onrender.com"
